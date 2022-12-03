@@ -1,0 +1,11 @@
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+}
+body{
+    background-color: #4B4959;
+}

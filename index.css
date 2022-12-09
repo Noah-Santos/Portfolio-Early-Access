@@ -5,7 +5,21 @@
 .nav{
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #00105E;
+    font-size: 100%;
 }
-body{
-    background-color: #4B4959;
+/* body{
+    background-color: ;
+} */
+div{
+    border: 1px solid black;
+}
+#me{
+    border-radius: 100%;
+}
+*{
+    color: white;
+    text-decoration: none;
 }

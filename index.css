@@ -10,9 +10,10 @@
     background-color: #00105E;
     font-size: 100%;
 }
-/* body{
-    background-color: ;
-} */
+body{
+    /* background-color: ; */
+    height: 100%;
+}
 div{
     border: 1px solid black;
 }
@@ -22,4 +23,14 @@ div{
 *{
     color: white;
     text-decoration: none;
+}
+#about{
+    margin: 2px;
+    /* display: flex; */
+    justify-items: stretch;
+    align-items: stretch;
+    height: 300px;
+    background-color: blue;
+    display: none;
+    border: 1px solid black;
 }

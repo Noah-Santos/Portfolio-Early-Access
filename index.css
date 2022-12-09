@@ -1,10 +1,11 @@
-.flex{
+.flexbox{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    height:100%;
 }
 .nav{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     background-color: #00105E;
@@ -24,13 +25,26 @@ div{
     color: white;
     text-decoration: none;
 }
-#about{
+#aboutP{
     margin: 2px;
     /* display: flex; */
-    justify-items: stretch;
-    align-items: stretch;
-    height: 300px;
+    /* justify-items: stretch;
+    align-items: stretch; */
+    align-content: center;
+    height: 500px;
+    width: 98.5vw;
     background-color: blue;
     display: none;
     border: 1px solid black;
+    position: absolute;
+    top: 1%;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+
+}
+.button{
+    font-size: 30%;
+    color: black;
 }
